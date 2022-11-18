@@ -34,7 +34,7 @@ line-height: 24px;
 
 
 }
-.card-text2 {
+.card-text2{
     text-align: left;
 
     width:250px;
@@ -51,9 +51,16 @@ font-family:'Montserrat';
 .card-img-center{
     display: flex;
 }
+.card-text2 input{
+    font-family:'Montserrat';
+}
 .preprice{
     color:rgb(155, 155, 155);
     text-decoration:line-through;
+    font-family: 'Montserrat';
+}
+.price{
+    font-family: 'Montserrat';  
 }
 .badge{
 background-color:red;

@@ -34,13 +34,13 @@
     font-size: 24px;
     color:black;
 }
-.card-text2{
+.card-text2,medium{
     font-family: 'Montserratt';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 32px;
-color:black;
+color:#1A202C;
 
 }body{
     color:black;

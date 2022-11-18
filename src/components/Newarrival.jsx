@@ -20,12 +20,13 @@ function Newarrival(props) {
 
  
   </div>
+  <br />
   <div className="card-body2">{props.text}
     
+   
     <br/>
     
-    
-    <p className="card-text2"><input style={{backgroundColor:`${props.background}` ,color:`${props.color}`, border:"transparent"}} className="product-type" type="submit" value={props.productType}/>  <span className='preprice'>{props.preprice}</span>&nbsp;{props.price} </p>
+    <p className="card-text2"><input style={{backgroundColor:`${props.background}` ,color:`${props.color}`, border:"transparent"}} className="product-type" type="submit" value={props.productType}/>  <span className='preprice'>{props.preprice}</span>&nbsp;<span className='price'>{props.price} </span></p>
   </div>
 </div>
 </div>
