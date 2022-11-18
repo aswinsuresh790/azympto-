@@ -1,0 +1,158 @@
+.banner-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+    border-radius: 64px;
+    background-color: #F6F7FB;
+    color:black; 
+    
+}
+
+.all-text-box{
+   margin-left: 5px; 
+    
+    
+    
+}
+.section-banner{
+    
+ 
+ margin-left: -100px;
+    background-position-x:right;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+    
+    
+      
+    }
+ 
+    .banner-img1{
+        display: flex;
+        flex-wrap: wrap;
+         
+         
+        justify-content: end;
+        align-content: center; 
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+        font-style: normal;
+      
+        margin-left: px;
+        line-height: 56px;
+      
+       width:576px;
+       
+       
+       
+        }
+    
+    .shop{
+        background-color: #00CC96;
+        border-radius: 32px;
+        width: 187px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px 40px;
+    gap: 10px;
+    border: #00CC96;
+    margin-top: 4rem;
+    
+    
+    
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color:#F5F5F5;
+    
+    
+       
+    }
+    
+    
+    
+    @media screen and (max-width:780px) {
+    
+    .banner-img1{
+        width:95%;
+       
+  
+        }
+        
+        main{
+            display: flex;
+            flex-direction: column;
+          flex-wrap: wrap;
+            background-color: transparent;
+            
+        }
+    main img{
+        width: 311px;
+        height: 311px;
+        border-radius: 64px;
+        background-color: #F6F7FB;
+        color:black; 
+     
+    
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+       
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        
+        
+          
+        }
+        .banner-img1{
+        
+        margin:0px;
+       
+       display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-style: normal;
+    margin-bottom: 73px;
+    flex-wrap: wrap;
+    
+    
+    
+    
+    
+  
+            
+ 
+    
+        }
+        .all-text-box{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+             
+             
+             
+         }
+    
+    } 
+    
+    

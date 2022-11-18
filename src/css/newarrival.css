@@ -1,0 +1,67 @@
+.card-img-section{
+    border-radius: 24px;
+}
+.product_card{
+   
+}
+.card1{
+
+    
+    
+
+}
+.card-body2{
+    font-size: 24px;
+    font-family: 'Montserrat';
+}
+.card-text2 button{
+    color: black;
+
+}
+.product-type {
+    width:128px;
+    max-width: 140px;
+    height:40px;
+   padding-left: 5px;
+  font-size: 14px;
+  line-height: 24px;
+    text-align: center;
+    font-family: 'Montserrat';
+    border-radius: 24px;
+    font-style: normal;
+font-weight: 700;
+line-height: 24px;
+
+
+}
+.card-text2 {
+    text-align: left;
+
+    width:250px;
+    max-width: 230px;   
+    height:40px;
+    font-family: 'Montserrat';
+}
+
+.card-text2{
+font-size:20px;
+font-weight: 600;
+font-family:'Montserrat';
+}
+.card-img-center{
+    display: flex;
+}
+.preprice{
+    color:rgb(155, 155, 155);
+    text-decoration:line-through;
+}
+.badge{
+background-color:red;
+        position:absolute;
+        top:5px;
+        right:1px;
+        font-size: 12px;
+}
+.card-img-section{
+    position: relative;
+}

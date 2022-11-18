@@ -1,0 +1,89 @@
+.container12{
+display: flex;
+flex:1;
+
+}
+.products{
+  display: flex;
+  flex:1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  justify-content: space-between;
+  margin-bottom: 75px;
+  margin-top: 75px;
+}
+.New{
+ 
+display: grid;
+ 
+grid-template-columns: repeat(4,4fr);
+ 
+grid-auto-rows: auto;
+ 
+grid-gap: 23.99px;
+display:flex;
+flex-wrap:wrap;
+justify-content: space-evenly;
+margin-left: 23px;
+
+margin-bottom: 75px;
+  margin-top: 75px;
+}
+.banner-main{
+  display: flex;
+flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 75px;
+  margin-top: 75px;
+}
+.viewall {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.viewall  input{
+  background-color: #00CC96;
+  border-radius: 32px;
+  width: 187px;
+height: 64px;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+border: #00CC96;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 32px;
+color:#F5F5F5;
+}
+.WhyPeople  {
+  margin-bottom: 77px;
+
+}
+
+.whySection{
+  margin-top:158px;
+  display: flex;
+
+}
+@media screen and (max-width:780px) {
+
+  .products{
+    display: block;
+  }
+  .whySection{
+  display: block;  
+  }
+  .products{
+    display: flex;
+    flex:2;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+  }
+}

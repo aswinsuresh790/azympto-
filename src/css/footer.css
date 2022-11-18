@@ -1,0 +1,54 @@
+.logo-footer{
+    padding-left: 25px;
+}
+.list{
+    
+    font-family: 'Montserratt';
+  
+    
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+}
+dd span{
+    width:77rem;
+    background-color: rgb(23, 104, 175);
+    border-radius: 50%;
+}
+.symbols-box2{
+    width:45px;
+    height:48px;
+    background-color:  #F6F7FB;
+    text-align: center;
+    justify-content: center;
+    
+    border-radius: 50%;
+}
+.symbols-box2 {
+  padding-top: 11px;
+  
+
+}
+.social-logo{
+    display: inline-flex;
+    
+}
+.rightlist dt{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+}
+.rightlist dd{
+font-family: 'Montserratt';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.fullfooter{
+    display: flex;
+    justify-content: space-between;
+}

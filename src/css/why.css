@@ -1,0 +1,53 @@
+.symbols-box{
+    width:64px;
+    height:64px;
+    background-color: #F6F7FB;
+    text-align: center;
+    justify-content: center;
+    
+    border-radius: 50%;
+}
+.symbols-box {
+  padding-top: 15px;
+  
+
+}
+ .text-muted{
+    font-family: 'Montserratt';
+    color:black;    
+}
+.why-card{
+    display: flex;
+    padding-left:145px;
+    justify-content: space-between;
+   flex-wrap: wrap;
+   
+
+}
+.why-cards{
+    margin-bottom: 90px;
+}
+.card-text-why{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color:black;
+}
+.card-text2{
+    font-family: 'Montserratt';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+color:black;
+
+}body{
+    color:black;
+}
+    
+
+.why-cards{
+   
+    
+}

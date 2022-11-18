@@ -1,0 +1,153 @@
+body{
+    box-sizing: border-box;
+}
+.logo{
+    width:127px;
+    height: 43px;
+    margin-left: 40px;
+
+}
+
+.navbar{
+  margin-top:48px ;
+  margin-left:96px;
+  margin-right: 96px;
+  
+
+    
+}
+
+
+ul {
+    float: right;
+    display: flex;
+   
+ 
+    
+
+}
+.navbar ul li{
+    list-style: none;
+display: inline-flex;
+ margin-left:32px ;  
+}
+    
+.noti{
+    width:10px;
+    height: 10px;
+    margin-left:-6px;
+    
+    background-color: crimson;
+    border-radius: 50%;
+}
+.logobgk{
+    width:48px;
+    height:48px;
+    border-radius: 50%;
+   
+      background-color: transparent;
+      
+  }
+.menu-bar{
+    padding: 12px;
+    display: none;
+    
+}
+button{
+    display: none;
+}
+.firstlist-mobile{
+    display: none;
+}
+.logo2{
+    display: none;
+}
+@media screen and (max-width:580px) {
+    .logo2{
+        display: block;
+        padding-left: 34px;
+        
+        
+     
+       
+    }
+    
+    .logobgk{
+        
+        background-color: #F6F7FB;  
+        display: grid;
+        margin-left: -62px;
+                
+       }
+       ul{
+        display: none;
+       }
+   
+    .menu-bar{
+        display: grid;
+        position: absolute;
+
+        
+        
+        
+    }
+   
+    .mob-list  {
+       position: absolute;
+       display: grid;
+      flex-direction: column;
+      margin-left:-60x ;
+      margin-top: 60px;
+      
+      transition: all 0.5s ease-out;
+ 
+    
+        
+    }
+    .mob-list li{
+        display: flex;
+   
+        background-color: #F6F7FB;
+        padding-right: 45px;
+        padding-left: 45px;
+        padding-bottom:8px;
+        margin-left: -60px;
+        transition: all 0.5s ease-out;
+       
+        
+        
+    }
+    .mob-list li:hover{
+        background-color: antiquewhite;
+    }
+    .navbar button{
+        border: transparent;
+        display:block;
+        border-radius: 50%;
+        background-color: transparent;
+       
+    }
+    .firstlist-mobile{
+        display: flex; 
+        padding-right: 1px;  
+     
+        
+        
+
+       
+    }
+    
+    
+    .logo{
+        display: none;
+    }
+    nav{
+     
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+      
+    }
+       
+}
